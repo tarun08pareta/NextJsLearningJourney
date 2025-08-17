@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import Instructor from "@/components/Instructor";
 import TestimonialCard from "@/components/TestimonialCard";
+import { Meteors } from "@/components/ui/meteors";
 import UpcommingWebnior from "@/components/UpcommingWebnior";
 // import WhyChooseUs from "@/components/WhyChooseUs";
 
@@ -16,6 +17,7 @@ export default function Home() {
       <UpcommingWebnior />
       <Instructor />
       <Footer />
+      <Meteors number={100} />
     </main>
   );
 }
